@@ -128,7 +128,15 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Apple",
+            "Garlic Bread",
+            "Chips",
+            "Tomato Soup",
+            "Caesar Salad",
+            "Chicken Wings"});
             this.comboBox1.Location = new System.Drawing.Point(66, 64);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -136,7 +144,15 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Apple",
+            "Garlic Bread",
+            "Chips",
+            "Tomato Soup",
+            "Caesar Salad",
+            "Chicken Wings"});
             this.comboBox2.Location = new System.Drawing.Point(66, 109);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
@@ -144,7 +160,15 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Steak & Chips",
+            "Fish & Chips",
+            "Spaghetti Carbonara",
+            "Lasagna",
+            "Spaghetti Bolognese",
+            "Risotto"});
             this.comboBox3.Location = new System.Drawing.Point(66, 158);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
@@ -152,7 +176,15 @@
             // 
             // comboBox4
             // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Steak & Chips",
+            "Fish & Chips",
+            "Spaghetti Carbonara",
+            "Lasagna",
+            "Spaghetti Bolognese",
+            "Risotto"});
             this.comboBox4.Location = new System.Drawing.Point(66, 197);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 21);
@@ -160,7 +192,15 @@
             // 
             // comboBox5
             // 
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Steak & Chips",
+            "Fish & Chips",
+            "Spaghetti Carbonara",
+            "Lasagna",
+            "Spaghetti Bolognese",
+            "Risotto"});
             this.comboBox5.Location = new System.Drawing.Point(66, 239);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 21);
@@ -168,7 +208,17 @@
             // 
             // comboBox6
             // 
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Water",
+            "Sparkling Water",
+            "Coke",
+            "Diet Coke",
+            "Dr Pepper",
+            "Lemonade",
+            "Orange Juice",
+            "Apple Juice"});
             this.comboBox6.Location = new System.Drawing.Point(66, 284);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 21);
@@ -344,6 +394,7 @@
             this.button1.TabIndex = 32;
             this.button1.Text = "Calculate Total";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -355,6 +406,7 @@
             this.button2.TabIndex = 33;
             this.button2.Text = "Reset Order";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
